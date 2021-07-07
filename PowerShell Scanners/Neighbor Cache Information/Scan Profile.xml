@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQInventory" Name="PDQ Inventory" Version="19.3.9.0" MinimumVersion="19.0">
+  <ScanProfile>
+    <Collections type="list" />
+    <Scanners type="list">
+      <Scanner>
+        <ModifiedDate>2021-03-22T02:17:22.0000000-04:00</ModifiedDate>
+        <Name>Neighbor Cache Information</Name>
+        <UID>3f4493b1c3d8482d8b3e95b4cbbf7654</UID>
+        <Script></Script>
+        <FileName>C:\PowerShell-Scanners\PowerShell Scanners\Neighbor Cache Information\Neighbor Cache Information.ps1</FileName>
+        <Parameters></Parameters>
+        <AdditionalFiles></AdditionalFiles>
+        <RowLimit value="100" />
+        <TypeName>PowerShell</TypeName>
+        <SourceScannerId value="78" />
+      </Scanner>
+    </Scanners>
+    <Description>Grabs the neighbor cache and attempts to get a reverse DNS lookup and NetBIOS name table for each.</Description>
+    <ScanProfileId value="30" />
+    <Name>PS - Neighbor Cache Information</Name>
+    <ScanAs>Admin</ScanAs>
+    <ScheduleTriggerSet name="ScheduleTriggers">
+      <Triggers type="list" />
+    </ScheduleTriggerSet>
+  </ScanProfile>
+</AdminArsenal.Export>
