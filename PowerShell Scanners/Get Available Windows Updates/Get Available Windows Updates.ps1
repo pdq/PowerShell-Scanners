@@ -1,8 +1,16 @@
+[CmdletBinding()]
+Param(
+    [switch]$WSUS
+)
 & '.\Install and Import Module.ps1' -ModuleName "PSWindowsUpdate"
 
 # The Collection object this cmdlet emits is really weird.
 # We have to assign it to a variable to get it to work properly in a pipeline.
-$GWU = Get-WindowsUpdate
+If($WSUS){
+    $GWU = Get-WindowsUpdate -WindowsUpdate
+}Else{
+    $GWU = Get-WindowsUpdate 
+}
 
 <#
 Due to a bug in Inventory, we want this script to always emit an object, even if no updates were found.
