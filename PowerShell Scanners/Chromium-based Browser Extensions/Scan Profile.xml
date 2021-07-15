@@ -1,23 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AdminArsenal.Export Code="PDQInventory" Name="PDQ Inventory" Version="19.0.40.0" MinimumVersion="19.0">
+<AdminArsenal.Export Code="PDQInventory" Name="PDQ Inventory" Version="19.3.9.0" MinimumVersion="19.0">
   <ScanProfile>
     <Collections type="list" />
     <Scanners type="list">
       <Scanner>
         <ModifiedDate value="null" />
-        <Name>Google Chrome Extensions</Name>
+        <Name>Chromium-based Browser Extensions</Name>
+        <UID>cf11eb23c78a4cdf8d202a9cf23446d0</UID>
         <Script></Script>
-        <FileName>C:\PowerShell-Scanners\PowerShell Scanners\Google Chrome Extensions\Google Chrome Extensions.ps1</FileName>
-        <Parameters>-Verbose</Parameters>
+        <FileName>C:\PowerShell-Scanners\PowerShell Scanners\Chromium-based Browser Extensions\Chromium-based Browser Extensions.ps1</FileName>
+        <Parameters></Parameters>
         <AdditionalFiles></AdditionalFiles>
         <RowLimit value="1000" />
         <TypeName>PowerShell</TypeName>
         <SourceScannerId value="74" />
       </Scanner>
     </Scanners>
-    <Description>Gathers data about the Chrome extensions each user has installed.</Description>
+    <Description>Gathers a list of installed extensions from Chromium-based browsers.</Description>
     <ScanProfileId value="46" />
-    <Name>PS - Google Chrome Extensions</Name>
+    <Name>PS - Chromium-based Browser Extensions</Name>
     <ScheduleTriggerSet name="ScheduleTriggers">
       <Triggers type="list" />
     </ScheduleTriggerSet>
