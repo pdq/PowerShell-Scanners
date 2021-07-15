@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQInventory" Name="PDQ Inventory" Version="19.0.0.0" MinimumVersion="19.0">
+  <ScanProfile>
+    <Collections type="list" />
+    <Scanners type="list">
+      <Scanner>
+        <ModifiedDate>2021-04-29T12:12:46.0000000-06:00</ModifiedDate>
+        <Name>Mapped Printers</Name>
+        <Script></Script>
+        <FileName>C:\PowerShell-Scanners\PowerShell Scanners\Mapped Printers\Mapped Printers.ps1</FileName>
+        <Parameters>-Verbose</Parameters>
+        <AdditionalFiles></AdditionalFiles>
+        <RowLimit value="100" />
+        <TypeName>PowerShell</TypeName>
+        <SourceScannerId value="51" />
+      </Scanner>
+    </Scanners>
+    <Description>Retrieves the mapped printers of logged-on users.</Description>
+    <ScanProfileId value="25" />
+    <Name>PS - Mapped Printers</Name>
+    <ScheduleTriggerSet name="ScheduleTriggers">
+      <Triggers type="list" />
+    </ScheduleTriggerSet>
+  </ScanProfile>
+</AdminArsenal.Export>
