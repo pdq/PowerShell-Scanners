@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQInventory" Name="PDQ Inventory" Version="19.3.30.0" MinimumVersion="19.0">
+  <ScanProfile>
+    <Collections type="list" />
+    <Scanners type="list">
+      <Scanner>
+        <ModifiedDate>2021-04-21T05:32:51.7761312-06:00</ModifiedDate>
+        <Name>ProduKey</Name>
+        <UID>2b02ceabca5940f1991a0b3e3c340dd7</UID>
+        <Script>
+        </Script>
+        <FileName>C:\PowerShell-Scanners\PowerShell Scanners\ProduKey\ProduKey.ps1</FileName>
+        <Parameters>
+        </Parameters>
+        <AdditionalFiles>C:\PowerShell-Scanners\PowerShell Scanners\ProduKey\ProduKey.exe</AdditionalFiles>
+        <RowLimit value="100" />
+        <TypeName>PowerShell</TypeName>
+        <SourceScannerId value="90" />
+      </Scanner>
+    </Scanners>
+    <Description>Retrieves product keys using NirSoft ProduKey.</Description>
+    <ScanProfileId value="33" />
+    <Name>PS - ProduKey</Name>
+    <ScheduleTriggerSet name="ScheduleTriggers">
+      <Triggers type="list" />
+    </ScheduleTriggerSet>
+  </ScanProfile>
+</AdminArsenal.Export>
